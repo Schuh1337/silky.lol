@@ -44,7 +44,7 @@ canvas {
 
 @font-face {
     font-family: 'angelwish';
-    src: url(Resources/Angelwish.ttf);
+    src: url(resources/Angelwish.ttf);
 }
 
 .center-box p {
@@ -106,20 +106,20 @@ canvas {
 }
 
 .icon-1 {
-    background-image: url('Resources/chat.png');
+    background-image: url('resources/chat.png');
     margin-left: -5px;
     width: 47px;
     height: 40px;
 }
 
 .icon-2 {
-    background-image: url('Resources/bot.png');
+    background-image: url('resources/bot.png');
     margin-bottom: 6px;
     margin-top: -1px;
 }
 
 .icon-3 {
-    background-image: url('Resources/mod.png');
+    background-image: url('resources/mod.png');
     margin-bottom: 6px;
     margin-top: -1px;
     margin-left: 5px;
