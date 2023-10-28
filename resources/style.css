@@ -1,4 +1,4 @@
-    body {
+body {
     margin: 0;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
@@ -35,7 +35,7 @@ canvas {
     margin: 10px;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.582);
     border-radius: 5px;
     text-decoration: none;
     transition: box-shadow 0.3s ease;
