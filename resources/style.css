@@ -60,8 +60,9 @@ canvas {
 .second-box {
     position: absolute;
     font-family: 'Arial', sans-serif;
-    top: 70%;
+    top: 50%;
     left: 50%;
+    margin-top: 190px;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.02);
     padding: 20px;
@@ -168,4 +169,14 @@ canvas {
     font-size: 24px;
     cursor: pointer;
     color: white;
+}
+
+.waifu {
+    position: absolute;
+    max-width: 30%;
+    height: 300px;
+    left: 61.75%;
+    top: 50%;
+    left: 61.85%;
+    margin-top: -225px;
 }
