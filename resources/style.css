@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
@@ -75,7 +75,7 @@ canvas {
 .textbox {
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    border: 0.1px solid rgba(255, 255, 255, 0.151);
     border-radius: 5px;
     text-align: left;
     padding: 20px;
