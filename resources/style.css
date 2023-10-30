@@ -129,15 +129,6 @@ canvas {
     margin-left: 5px;
 }
 
-.credits-uwu {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    font-family: 'Arial', sans-serif;
-    font-size: 12px;
-    color: #ffffff;
-}
-
 .popup {
     display: none;
     position: fixed;
