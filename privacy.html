@@ -14,10 +14,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #333;
+            background-color: #000000;
             color: #fff;
             margin: 0;
             padding: 0;
+            user-select: none;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,7 +26,7 @@
         }
         
         .container {
-            background-color: #444;
+            background-color: #111111d2;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -43,8 +44,9 @@
     </style>
 </head>
 <body>
+<canvas id="stars" style="position: absolute; top: 0; left: 0;"></canvas>
     <div class="container">
-        <h1>Privacy Policy</h1>
+        <h1>Silky Privacy Policy</h1>
 
         <p><strong>1. Information Collection</strong></p>
         <p>Information Collection:
@@ -72,5 +74,6 @@
         <p>Any changes to this Privacy Policy will be posted on the Silky Bot's description or official Website, with appropriate user notifications. We recommend regularly checking this page for updates.<p>
         <p>* This Privacy Policy was last updated on 30.10.2023</p>
     </div>
+    <script src="resources/app2.js"></script>
 </body>
 </html>
