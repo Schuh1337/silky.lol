@@ -63,11 +63,6 @@ canvas {
     border-radius: 5px;
 }
 
-.separator {
-    margin: 0 1px; 
-    color: #000;
-}
-
 @font-face {
     font-family: 'angelwish';
     src: url(Angelwish.ttf);
@@ -85,7 +80,7 @@ canvas {
     font-family: 'Arial', sans-serif;
     top: 50%;
     left: 50%;
-    margin-top: 175px;
+    margin-top: 190px;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.02);
     padding: 20px;
