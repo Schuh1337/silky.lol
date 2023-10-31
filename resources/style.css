@@ -45,6 +45,19 @@ canvas {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
 
+.bottom-buttons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #15151500;
+    padding: 10px 0;
+}
+
+.bottom-buttons a {
+    margin: 0 10px;
+}
+
 @font-face {
     font-family: 'angelwish';
     src: url(Angelwish.ttf);
