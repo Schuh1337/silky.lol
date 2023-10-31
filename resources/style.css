@@ -55,12 +55,17 @@ canvas {
 }
 
 .bottom-center a.button {
-    margin: 0 10px;
+    margin: 0 4px;
     text-decoration: none;
     color: #fff;
     background-color: #007BFF00;
-    padding: 10px 20px;
+    padding: 4px 9px;
     border-radius: 5px;
+}
+
+.separator {
+    margin: 0 1px; 
+    color: #000;
 }
 
 @font-face {
