@@ -14,6 +14,18 @@
     <meta property="og:site_name" content="silky.lol">
     <meta property="og:url" content="https://silky.lol">
     <link rel="stylesheet" href="resources/style.css">
+    <style>
+        .bottom-buttons {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom-buttons .button {
+            margin: 5px;
+        }
+    </style>
     <title>Silky</title>
 </head>
 <body>
@@ -23,10 +35,6 @@
         <a class="button" href="https://discord.com/oauth2/authorize?client_id=1045757063621521458&permissions=8&scope=bot" target="_blank">Invite</a>
         <a class="button" href="https://top.gg/bot/1045757063621521458" target="_blank">Top.gg</a>
         <a class="button" id="popupButton" style="cursor: pointer;">Contact</a>
-    </div>
-    <div class="bottom-center">
-        <a class="button" href="https://silky.lol/tos" target="_blank">Terms of Service</a>
-        <a class="button" href="https://silky.lol/privacy" target="_blank">Privacy Policy</a>
     </div>
     <div class="second-box">
         <div class="textbox-container">
@@ -54,6 +62,10 @@
                 <span style="user-select: text;">schuh@silky.lol</span>
             </p>
         </div>
+    </div>
+    <div class="bottom-buttons">
+        <a class="button" href="https://silky.lol/tos" target="_blank">Terms Of Service</a>
+        <a class="button" href="https://silky.lol/privacy" target="_blank">Privacy Policy</a>
     </div>
     <script src="resources/app.js"></script>
 </body>
