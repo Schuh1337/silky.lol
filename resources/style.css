@@ -50,16 +50,10 @@ canvas {
     bottom: 0;
     right: 0;
     width: auto;
+    color: #ffffff;
     text-align: right;
     background-color: #15151500;
     padding: 10px 0;
-}
-
-.bottom-buttons a {
-    margin: 0 10px;
-    text-decoration: none;
-    position: relative;
-    color: #ffffff;
 }
 
 @font-face {
