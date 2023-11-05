@@ -59,6 +59,8 @@ canvas {
     margin: 0 10px;
     text-decoration: none;
     position: relative;
+    color: #ffffff;
+    transition: color 0.3s ease;
 }
 
 .bottom-buttons a:hover::after {
@@ -81,7 +83,6 @@ canvas {
 .bottom-buttons a:hover::after {
     transform: scaleX(1);
 }
-
 
 @font-face {
     font-family: 'angelwish';
