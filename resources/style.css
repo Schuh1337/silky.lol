@@ -55,7 +55,7 @@ canvas {
     position: relative;
     color: #ffffff;
     text-align: right;
-    background-color: #15151500;
+    background-color: rgba(21, 21, 21, 0);
     padding: 10px 0;
 }
 
