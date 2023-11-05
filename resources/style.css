@@ -50,6 +50,9 @@ canvas {
     bottom: 0;
     right: 0;
     width: auto;
+    margin: 0 10px;
+    text-decoration: none;
+    position: relative;
     color: #ffffff;
     text-align: right;
     background-color: #15151500;
