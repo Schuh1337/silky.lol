@@ -60,11 +60,6 @@ canvas {
     text-decoration: none;
     position: relative;
     color: #ffffff;
-    transition: border-bottom 0.3s ease;
-}
-
-.bottom-buttons:hover {
-    border-bottom: 2px solid #fff;
 }
 
 @font-face {
