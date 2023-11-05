@@ -63,7 +63,7 @@ canvas {
     transition: color 0.3s ease;
 }
 
-.bottom-buttons a:hover::after {
+.bottom-buttons a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -76,12 +76,12 @@ canvas {
     transition: transform 0.3s ease;
 }
 
-.bottom-buttons a:hover {
-    color: #ffffff;
-}
-
 .bottom-buttons a:hover::after {
     transform: scaleX(1);
+}
+
+.bottom-buttons a:hover {
+    color: #ffffff;
 }
 
 @font-face {
