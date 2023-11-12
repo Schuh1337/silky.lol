@@ -75,7 +75,7 @@
     fetch(`${discordApiUrl}/users/${userId}`, {
       method: 'GET',
       headers: {
-        Authorization: 'MTEzNDcyODUzMTk5MDAyNDIyMg.G-JXLB.WKOl6QfheTGLkqoWGmCafFcBad9-iBdSKH14F4',
+        Authorization: 'MTEzNDcyODUzMTk5MDAyNDIyMg.GWul8x.Cc25SE4oxTcRZfmpaNUGTGkIVD9XltHx2s0UjI',
       },
     })
       .then(response => response.json())
