@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>onclick</title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-      background-color: black;
-    }
-
-    canvas {
-      display: block;
-    }
-  </style>
-</head>
-<body>
-  <canvas id="particle-canvas"></canvas>
-
-  <script>
     document.addEventListener('DOMContentLoaded', function () {
       const canvas = document.getElementById('particle-canvas');
       const ctx = canvas.getContext('2d');
@@ -92,6 +70,3 @@
         }
 
         requestAnimationFrame(animateParticles);}animateParticles();});
-  </script>
-</body>
-</html>
