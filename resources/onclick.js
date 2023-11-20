@@ -3,9 +3,6 @@
       const ctx = canvas.getContext('2d');
       const particles = [];
 
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-
       window.addEventListener('click', function (e) {
         createBurst(e.x, e.y);
       });
