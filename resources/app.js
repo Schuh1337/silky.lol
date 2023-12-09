@@ -1,5 +1,4 @@
-document.addEventListener('keydown', function (e) {
-  if ((e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) || (e.ctrlKey && e.shiftKey && e.key === 'C') || (e.ctrlKey && e.key === 'u') || (e.ctrlKey && e.key === 's') || (e.ctrlKey && e.key === 'p') || (e.ctrlKey && e.key === 'g') || (e.ctrlKey && e.key === 'f') || (e.ctrlKey && e.key === 'o') || (e.ctrlKey && e.key === 'j') || (e.ctrlKey && e.key === 'h') || (e.ctrlKey && e.key === 'd') || (e.ctrlKey && e.key === '+') || (e.ctrlKey && e.key === '-')) {e.preventDefault();}});
+document.addEventListener('keydown', function (e) {if ((e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) || (e.ctrlKey && e.shiftKey && e.key === 'C') || (e.ctrlKey && e.key === 'u') || (e.ctrlKey && e.key === 's') || (e.ctrlKey && e.key === 'p') || (e.ctrlKey && e.key === 'g') || (e.ctrlKey && e.key === 'f') || (e.ctrlKey && e.key === 'o') || (e.ctrlKey && e.key === 'j') || (e.ctrlKey && e.key === 'h') || (e.ctrlKey && e.key === 'd') || (e.ctrlKey && e.key === '+') || (e.ctrlKey && e.key === '-')) {e.preventDefault();}});
 (function () {
   let SSWZ = function () {
       this.keyScrollHandler = function (e) {
